@@ -28,9 +28,9 @@ export function Navbar() {
           </a>
           <Link
             href="/"
-            className="text-[28px] font-semibold tracking-tighter pl-2.5"
+            className="text-[28px] font-semibold tracking-tight pl-2.5"
           >
-            Hackers <span className="font-semibold tracking-tighter">Fund</span>
+            Hackers Fund
           </Link>
         </div>
         <div className="flex flex-row gap-5 mt-6 md:mt-0 md:ml-auto">
