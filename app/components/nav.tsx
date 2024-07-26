@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -15,17 +17,17 @@ export function Navbar() {
   return (
     <nav className="mb-16 py-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center">
           <a href="/">
             <Image
               src="/logo.png"
               alt="Hackers Fund Logo"
               width={38}
               height={38}
-              className="rounded-lg"
+              className="px-2 py-2 bg-[#F26522] text-white rounded-md font-medium"
             />
           </a>
-          <Link href="/" className="text-2xl font-semibold">
+          <Link href="/" className="text-[26px] font-semibold tracking-tight pl-2.5">
             Hackers Fund
           </Link>
         </div>
@@ -37,7 +39,7 @@ export function Navbar() {
                 href={path}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3.5 py-1.5 bg-[#FB651E] text-white rounded-md font-medium hover:bg-opacity-90 transition-all"
+                className="px-3.5 py-1.5 bg-[#F26522] text-white rounded-md font-medium hover:bg-opacity-90 transition-all"
               >
                 {name}
               </a>
