@@ -24,9 +24,9 @@ function SocialLinks() {
     <div className="flex text-lg gap-4 float-right">
       <SocialLink href="https://x.com/hackersfund" icon={FaXTwitter} />
       <SocialLink href="/" icon={FaDiscord} />
-      <SocialLink href="/" icon={FaYoutube} />
+      <SocialLink href="https://www.youtube.com/@HackersFund" icon={FaYoutube} />
       <SocialLink href="/" icon={FaLinkedinIn} />
-      <SocialLink href="mailto:" icon={TbMailFilled} />
+      <SocialLink href="mailto:info.hackersfund@gmail.com" icon={TbMailFilled} />
     </div>
   );
 }
